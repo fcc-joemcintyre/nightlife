@@ -28,7 +28,7 @@ function start (port, dbLocation, yelp) {
   return new Promise ((resolve, reject) => {
     console.log ('Starting server');
     promiseTry (() => {
-      db.init (dbLocation);
+      return db.init (dbLocation);
     }).then (() => {
       // set up static HTML serving
       let app = express ();
@@ -36,7 +36,7 @@ function start (port, dbLocation, yelp) {
       if (process.env.NODE_ENV === 'production') {
         app.use (httpsOnly);
       }
-      
+
       // set up HTTP parsers and session manager
       app.use (cookieParser ());
       app.use (bodyParser.json ());
