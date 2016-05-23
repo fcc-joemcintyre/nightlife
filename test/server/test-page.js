@@ -1,0 +1,37 @@
+'use strict';
+const request = require ('request');
+const url = require ('./test-main').url;
+
+describe ('page loading', () => {
+  describe ('/', () => {
+    it ('should return 200 with home page', (done) => {
+      request.get (url, (err, res, body) => {
+        if (err) { return done (err); }
+        if (res.statusCode === 200) {
+          if (body.indexOf ('<title>Nightlife</title>') !== -1) {
+            return done ();
+          } else {
+            return (done (new Error ('Invalid body', body)));
+          }
+        }
+        return done (new Error ('Invalid response', res.statusCode));
+      });
+    });
+  });
+
+  describe ('invalid URL content', () => {
+    it ('should return 200 with home page', (done) => {
+      request.get (`${url}dummy`, (err, res, body) => {
+        if (err) { return done (err); }
+        if (res.statusCode === 200) {
+          if (body.indexOf ('<title>Nightlife</title>') !== -1) {
+            return done ();
+          } else {
+            return (done (new Error ('Invalid body', body)));
+          }
+        }
+        return done (new Error ('Invalid response', res.statusCode));
+      });
+    });
+  });
+});

@@ -1,0 +1,931 @@
+{
+  "region": {
+    "span": {
+      "latitude_delta": 0.19623079147100242,
+      "longitude_delta": 0.2152959822984144
+    },
+    "center": {
+      "latitude": 31.030768514305,
+      "longitude": -97.43829311013565
+    }
+  },
+  "total": 41,
+  "businesses": [
+    {
+      "is_claimed": true,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/scores-sports-bar-belton?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 20,
+      "name": "Scores Sports Bar",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/scores-sports-bar-belton?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ]
+      ],
+      "phone": "2548315111",
+      "snippet_text": "Awesome...just good people...good employees....my favorite local place to go for sure.",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NugpQ2KQBeTqirPcPslyyQ/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/gsLz3XD8ef_G9nYJG6jEYw/ms.jpg",
+      "display_phone": "+1-254-831-5111",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "scores-sports-bar-belton",
+      "is_closed": false,
+      "location": {
+        "city": "Belton",
+        "display_address": [
+          "219 S East St",
+          "Se B",
+          "Belton, TX 76513"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76513",
+        "country_code": "US",
+        "address": [
+          "219 S East St",
+          "Se B"
+        ],
+        "coordinate": {
+          "latitude": 31.0553703457117,
+          "longitude": -97.4633404612541
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/nolan-creek-winery-and-wine-bar-belton?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 10,
+      "name": "Nolan Creek Winery and Wine Bar",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/nolan-creek-winery-and-wine-bar-belton?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Wine Bars",
+          "wine_bars"
+        ],
+        [
+          "Wineries",
+          "wineries"
+        ]
+      ],
+      "phone": "2546134475",
+      "snippet_text": "We love this wine bar. The owner is always super nice, wine is delicious and it's nice to sit on the patio to relax and have a few glasses of wine after a...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/h8xoOodYsgCCXvGr-HX36w/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/OJeEW4eoWbGhFjLdkkr1Yg/ms.jpg",
+      "display_phone": "+1-254-613-4475",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "nolan-creek-winery-and-wine-bar-belton",
+      "is_closed": false,
+      "location": {
+        "city": "Belton",
+        "display_address": [
+          "219 S E St",
+          "Belton, TX 76513"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76513",
+        "country_code": "US",
+        "address": [
+          "219 S E St"
+        ],
+        "coordinate": {
+          "latitude": 31.0553845,
+          "longitude": -97.463263
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/munsons-emporium-belton?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 5,
+      "name": "Munson's Emporium",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/munsons-emporium-belton?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Hookah Bars",
+          "hookah_bars"
+        ],
+        [
+          "Tobacco Shops",
+          "tobaccoshops"
+        ]
+      ],
+      "phone": "2549338450",
+      "snippet_text": "Just bought a Valentines Day gift here. The staff was excellent. They helped me make a great decision and were knowledgeable about their products. I also...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/vt_jzCF3WfmlJluklV6Y8Q/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/yBC3UGccq8Jd-4u-Y4mIyw/ms.jpg",
+      "display_phone": "+1-254-933-8450",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "munsons-emporium-belton",
+      "is_closed": false,
+      "location": {
+        "city": "Belton",
+        "display_address": [
+          "5691 FM 439",
+          "Belton, TX 76513"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76513",
+        "country_code": "US",
+        "address": [
+          "5691 FM 439"
+        ],
+        "coordinate": {
+          "latitude": 31.1027412,
+          "longitude": -97.5145658
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 2,
+      "mobile_url": "http://m.yelp.com/biz/patriot-coney-island-belton-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/b561c24f8341/ico/stars/v1/stars_2.png",
+      "review_count": 29,
+      "name": "Patriot Coney Island",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a6210baec261/ico/stars/v1/stars_small_2.png",
+      "url": "http://www.yelp.com/biz/patriot-coney-island-belton-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ]
+      ],
+      "phone": "2546135270",
+      "snippet_text": "I was Leary because of previous reviews, but our food was delicious!  I had the King David sandwich and my husband had the gyro. The King David was like a...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/LY7idKhhQcRbASxP15dPtw/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/15Lb70rdHYZ2WmOrKVEWWw/ms.jpg",
+      "display_phone": "+1-254-613-5270",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c00926ee5dcb/ico/stars/v1/stars_large_2.png",
+      "id": "patriot-coney-island-belton-2",
+      "is_closed": false,
+      "location": {
+        "city": "Belton",
+        "display_address": [
+          "112 E Central Ave",
+          "Belton, TX 76513"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76513",
+        "country_code": "US",
+        "address": [
+          "112 E Central Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.05658,
+          "longitude": -97.46314
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 3,
+      "mobile_url": "http://m.yelp.com/biz/3west-alehouse-and-grill-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+      "review_count": 17,
+      "name": "3WEST Alehouse & Grill",
+      "rating_img_url_small": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png",
+      "url": "http://www.yelp.com/biz/3west-alehouse-and-grill-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ],
+        [
+          "Gastropubs",
+          "gastropubs"
+        ]
+      ],
+      "phone": "2549352004",
+      "snippet_text": "My husband and I really enjoy the other establishments owned by this owner so we have been meaning to give this place a try. I have heard nothing but good...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/z-UPWcWsmq_ZmLiNlKcZAQ/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/zmyqH2zLLtvhn7N1-1a2yg/ms.jpg",
+      "display_phone": "+1-254-935-2004",
+      "rating_img_url_large": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+      "id": "3west-alehouse-and-grill-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "7373 Honeysuckle Dr",
+          "Temple, TX 76502"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76502",
+        "country_code": "US",
+        "address": [
+          "7373 Honeysuckle Dr"
+        ],
+        "coordinate": {
+          "latitude": 31.11996432861,
+          "longitude": -97.4198978675614
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/chupacabra-craft-beer-salado?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 16,
+      "name": "Chupacabra Craft Beer",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/chupacabra-craft-beer-salado?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Pubs",
+          "pubs"
+        ]
+      ],
+      "phone": "2549479000",
+      "snippet_text": "We stopped on a Friday night and enjoyed a tasting - I enjoyed the Hefeweisen and my fiance enjoyed the amber. It was nice that they had live entertainment...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/D0eLGcwtGNltYkXdfvibVQ/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/fOSvpRqWt5QmsrQ3KyOi0g/ms.jpg",
+      "display_phone": "+1-254-947-9000",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "chupacabra-craft-beer-salado",
+      "is_closed": false,
+      "location": {
+        "city": "Salado",
+        "display_address": [
+          "418 N Main St",
+          "Salado, TX 76571"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76571",
+        "country_code": "US",
+        "address": [
+          "418 N Main St"
+        ],
+        "coordinate": {
+          "latitude": 30.9512013532298,
+          "longitude": -97.5361549202713
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/o-briens-irish-pub-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 37,
+      "name": "O'Briens Irish Pub",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/o-briens-irish-pub-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Pubs",
+          "pubs"
+        ],
+        [
+          "Irish",
+          "irish"
+        ],
+        [
+          "Music Venues",
+          "musicvenues"
+        ]
+      ],
+      "phone": "2542950518",
+      "snippet_text": "Very cute place for Temple! Huge selection of draft beers. Knowledgable wait staff. Clean bathrooms!",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/4GNSCvIfkaMWQ5Mw4kOqKg/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/D8y4AGryz_aV6MOoY5FKgw/ms.jpg",
+      "display_phone": "+1-254-295-0518",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "o-briens-irish-pub-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "11 E Central Ave",
+          "Temple, TX 76501"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76501",
+        "country_code": "US",
+        "address": [
+          "11 E Central Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.096387,
+          "longitude": -97.340648
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/the-shed-salado?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 33,
+      "name": "The Shed",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/the-shed-salado?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Pubs",
+          "pubs"
+        ]
+      ],
+      "phone": "2549471960",
+      "snippet_text": "The Shed is awesome! The service has been great every time we have gone & the food is delicious!!! I had the baked potato pizza! Two of my favorite things...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/pbkOpmqww8KWvAmp12v2vw/ms.jpg",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/qdlOoqaQgnCbmE1ihVj3cw/ms.jpg",
+      "display_phone": "+1-254-947-1960",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "the-shed-salado",
+      "is_closed": false,
+      "location": {
+        "city": "Salado",
+        "display_address": [
+          "220 Royal St",
+          "Salado, TX 76571"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76571",
+        "country_code": "US",
+        "address": [
+          "220 Royal St"
+        ],
+        "coordinate": {
+          "latitude": 30.94252,
+          "longitude": -97.53416
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/wings-pizza-n-things-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 60,
+      "name": "Wings Pizza N Things",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/wings-pizza-n-things-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "Chicken Wings",
+          "chicken_wings"
+        ],
+        [
+          "Pizza",
+          "pizza"
+        ]
+      ],
+      "phone": "2547783663",
+      "snippet_text": "One of my favorite places to eat.\n\nMy standard order is 8 boneless wings with half sunset BBQ and half raspberry chipotle although my daughter usually ends...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/LXCfntByg7tNEXKobHEf2A/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/NxxLziFCeQr5K2M-NgyQvg/ms.jpg",
+      "display_phone": "+1-254-778-3663",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "wings-pizza-n-things-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "2112 SW H K Dodgen Lp",
+          "Ste 106",
+          "Temple, TX 76504"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76504",
+        "country_code": "US",
+        "address": [
+          "2112 SW H K Dodgen Lp",
+          "Ste 106"
+        ],
+        "coordinate": {
+          "latitude": 31.0780919349671,
+          "longitude": -97.3759962290347
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/la-riv-italian-cuisine-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 58,
+      "name": "La Riv Italian Cuisine",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/la-riv-italian-cuisine-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Wine Bars",
+          "wine_bars"
+        ],
+        [
+          "Italian",
+          "italian"
+        ]
+      ],
+      "phone": "2542313661",
+      "snippet_text": "Who would have thought fresh, interesting Italian in Temple, TX? Great menu, friendly service, nice wines and very reasonable prices.",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/1BGDLPMdZoS5TXBeWyENZg/ms.jpg",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/Hkad9uutSiWw2JvgCW8Pbg/ms.jpg",
+      "display_phone": "+1-254-231-3661",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "la-riv-italian-cuisine-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "7410 W Adams Ave",
+          "Temple, TX 76502"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76502",
+        "country_code": "US",
+        "address": [
+          "7410 W Adams Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.1194096,
+          "longitude": -97.4206924
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/j-kowboy-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 7,
+      "name": "J Kowboy",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/j-kowboy-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Bars",
+          "bars"
+        ]
+      ],
+      "phone": "2547732228",
+      "snippet_text": "A delightful, quaint place, great wines, great service, and the owner is such an enjoyable guy.",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/JBdnz3KZ4ZQIiXJl1eUVng/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/mOjxFLVRD82Ls_BYgeLyXw/ms.jpg",
+      "display_phone": "+1-254-773-2228",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "j-kowboy-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "13 E Avenue B",
+          "Temple, TX 76501"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76501",
+        "country_code": "US",
+        "address": [
+          "13 E Avenue B"
+        ],
+        "coordinate": {
+          "latitude": 31.094433,
+          "longitude": -97.341313
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 5,
+      "mobile_url": "http://m.yelp.com/biz/ace-high-saloon-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+      "review_count": 2,
+      "name": "Ace High Saloon",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+      "url": "http://www.yelp.com/biz/ace-high-saloon-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ]
+      ],
+      "phone": "2547735560",
+      "snippet_text": "Not your typical \"Bar Food\", Pizza, Burgers, Seafood, Steaks, Catfish, Sandwiches & more. NFL Sunday Ticket, Longhorn Network, SEC Network, Major PPV Boxing...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/MafCvxH2P5a0fONSTexSgA/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/i9Y4kwj_pY4ZtJADyZMyeQ/ms.jpg",
+      "display_phone": "+1-254-773-5560",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+      "id": "ace-high-saloon-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "2001 W Adams Ave",
+          "Temple, TX 76504"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76504",
+        "country_code": "US",
+        "address": [
+          "2001 W Adams Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.1022764739589,
+          "longitude": -97.3614492524725
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 5,
+      "mobile_url": "http://m.yelp.com/biz/the-feathered-nest-salado-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+      "review_count": 5,
+      "name": "The Feathered Nest",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+      "url": "http://www.yelp.com/biz/the-feathered-nest-salado-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Wine Bars",
+          "wine_bars"
+        ],
+        [
+          "Wine Tasting Room",
+          "winetastingroom"
+        ]
+      ],
+      "phone": "2549473788",
+      "snippet_text": "An amazing experience! Stumbled upon this place and had the BEST experience!\nVery friendly staff(Jen and Jennifer) and great wine!\nA hidden gem in little...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/AY9w33eduXalnLYWuT79QQ/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/5MwlP0Bp0lokLh_YFRcYDw/ms.jpg",
+      "display_phone": "+1-254-947-3788",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+      "id": "the-feathered-nest-salado-2",
+      "is_closed": false,
+      "location": {
+        "city": "Salado",
+        "display_address": [
+          "1 Royal Street",
+          "Salado, TX 76571"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76571",
+        "country_code": "US",
+        "address": [
+          "1 Royal Street"
+        ],
+        "coordinate": {
+          "latitude": 30.9427694,
+          "longitude": -97.5371759
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/salado-winery-and-salado-wine-seller-salado?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 14,
+      "name": "Salado Winery & Salado Wine Seller",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/salado-winery-and-salado-wine-seller-salado?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Wine Bars",
+          "wine_bars"
+        ],
+        [
+          "Local Flavor",
+          "localflavor"
+        ]
+      ],
+      "phone": "2549478011",
+      "snippet_text": "Salado Winery reminds me of the small boutique wineries that have cropped up in Northern California over the past decade.  Winemaker Sheldon has an...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Dh3M3zqOnk_ZBVmgesSEFw/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/2932QyX2yvmqLI0n3gNd-Q/ms.jpg",
+      "display_phone": "+1-254-947-8011",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "salado-winery-and-salado-wine-seller-salado",
+      "is_closed": false,
+      "location": {
+        "city": "Salado",
+        "display_address": [
+          "841 N. Main St.",
+          "Salado, TX 76571"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76571",
+        "country_code": "US",
+        "address": [
+          "841 N. Main St."
+        ],
+        "coordinate": {
+          "latitude": 30.9542224863768,
+          "longitude": -97.5328758715492
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/cheeves-bros-steak-house-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 66,
+      "name": "Cheeves Bros Steak House",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/cheeves-bros-steak-house-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Wine Bars",
+          "wine_bars"
+        ],
+        [
+          "Steakhouses",
+          "steak"
+        ],
+        [
+          "Seafood",
+          "seafood"
+        ]
+      ],
+      "phone": "2547422300",
+      "snippet_text": "Cheeves is by far our favorite restaurant in the Temple area. Try the filet with Green Peppercorn Sauce. It will change your life!",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/2UvZJuGbCyuvsQ9gyTDFRQ/ms.jpg",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/iHcKUM122poT_yqp0-JIpw/ms.jpg",
+      "display_phone": "+1-254-742-2300",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "cheeves-bros-steak-house-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "14 E Ave A",
+          "Temple, TX 76501"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76501",
+        "country_code": "US",
+        "address": [
+          "14 E Ave A"
+        ],
+        "coordinate": {
+          "latitude": 31.095705,
+          "longitude": -97.340841
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 3,
+      "mobile_url": "http://m.yelp.com/biz/green-door-on-second-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+      "review_count": 7,
+      "name": "Green Door On Second",
+      "rating_img_url_small": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png",
+      "url": "http://www.yelp.com/biz/green-door-on-second-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Bars",
+          "bars"
+        ],
+        [
+          "Piano Bars",
+          "pianobars"
+        ],
+        [
+          "Karaoke",
+          "karaoke"
+        ]
+      ],
+      "phone": "2545983497",
+      "snippet_text": "Music styles: Rock, Texas music, classic rock, country and some alternative. Later in the evening becomes more upbeat. Mix of today's contemparary hits,...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/nsriBKfI_i_5xpcP_l5V5g/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/VYnuLmcW_jBzdYWKBpMlMg/ms.jpg",
+      "display_phone": "+1-254-598-3497",
+      "rating_img_url_large": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+      "id": "green-door-on-second-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "12 South 2nd St",
+          "Temple, TX 76501"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76501",
+        "country_code": "US",
+        "address": [
+          "12 South 2nd St"
+        ],
+        "coordinate": {
+          "latitude": 31.0958536,
+          "longitude": -97.3404313
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/longhorn-bar-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 1,
+      "name": "Longhorn Bar",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/longhorn-bar-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Dive Bars",
+          "divebars"
+        ]
+      ],
+      "snippet_text": "Dive bar with pool tables, domestic beer bottles, and a good jukebox. There is a cozy corner with a fireplace that rocks in the wintertime!",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/QUo7LczVbCcyK2_Li4dQ2Q/ms.jpg",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "longhorn-bar-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "2503 S General Bruce Dr",
+          "Temple, TX 76504"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76504",
+        "country_code": "US",
+        "address": [
+          "2503 S General Bruce Dr"
+        ],
+        "coordinate": {
+          "latitude": 31.0949420928955,
+          "longitude": -97.3710250854492
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 2.5,
+      "mobile_url": "http://m.yelp.com/biz/future-cues-pool-hall-and-sports-bar-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c7fb9aff59f9/ico/stars/v1/stars_2_half.png",
+      "review_count": 6,
+      "name": "Future Cues Pool Hall & Sports Bar",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/8e8633e5f8f0/ico/stars/v1/stars_small_2_half.png",
+      "url": "http://www.yelp.com/biz/future-cues-pool-hall-and-sports-bar-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "Karaoke",
+          "karaoke"
+        ],
+        [
+          "Pool Halls",
+          "poolhalls"
+        ]
+      ],
+      "phone": "2542912526",
+      "snippet_text": "I went here this weekend with my boyfriend and our friends to drink and shoot some pool. The layout is nice, the beer pong area is secluded and it was free...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/bqPilHPyTHLlQyYblyjB6A/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/a31WZDOnQcZpZHl1ohYtrA/ms.jpg",
+      "display_phone": "+1-254-291-2526",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/d63e3add9901/ico/stars/v1/stars_large_2_half.png",
+      "id": "future-cues-pool-hall-and-sports-bar-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "102 S General Bruce Dr",
+          "Temple, TX 76504"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76504",
+        "country_code": "US",
+        "address": [
+          "102 S General Bruce Dr"
+        ],
+        "coordinate": {
+          "latitude": 31.101385,
+          "longitude": -97.362488
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 5,
+      "mobile_url": "http://m.yelp.com/biz/barrow-brewing-company-salado?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+      "review_count": 5,
+      "name": "Barrow Brewing Company",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+      "url": "http://www.yelp.com/biz/barrow-brewing-company-salado?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Pubs",
+          "pubs"
+        ],
+        [
+          "Breweries",
+          "breweries"
+        ]
+      ],
+      "phone": "9034075574",
+      "snippet_text": "These folks are building a great foundation as a brewery. Solid standards, with a Belgium locals and non-hop heads can chug. I came before the grand...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/V1ZDp7ewkseMksq4gikCwQ/ms.jpg",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/iwsqJUA4LKzeLYLOqNCu9w/ms.jpg",
+      "display_phone": "+1-903-407-5574",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+      "id": "barrow-brewing-company-salado",
+      "is_closed": false,
+      "location": {
+        "city": "Salado",
+        "display_address": [
+          "108 Royal St.",
+          "Salado, TX 76571"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76571",
+        "country_code": "US",
+        "address": [
+          "108 Royal St."
+        ],
+        "coordinate": {
+          "latitude": 30.9429149627686,
+          "longitude": -97.5359344482422
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 2.5,
+      "mobile_url": "http://m.yelp.com/biz/beer-garden-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c7fb9aff59f9/ico/stars/v1/stars_2_half.png",
+      "review_count": 2,
+      "name": "Beer Garden",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/8e8633e5f8f0/ico/stars/v1/stars_small_2_half.png",
+      "url": "http://www.yelp.com/biz/beer-garden-temple?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Bars",
+          "bars"
+        ]
+      ],
+      "phone": "2547781905",
+      "snippet_text": "Cool dive bar with pool tables, but only had Natty light and Busch on tap. Rest domestic bottles. Ask to check out the hand made leather koozies used by the...",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/QUo7LczVbCcyK2_Li4dQ2Q/ms.jpg",
+      "display_phone": "+1-254-778-1905",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/d63e3add9901/ico/stars/v1/stars_large_2_half.png",
+      "id": "beer-garden-temple",
+      "is_closed": false,
+      "location": {
+        "city": "Temple",
+        "display_address": [
+          "1119 S 55th St",
+          "Temple, TX 76504"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76504",
+        "country_code": "US",
+        "address": [
+          "1119 S 55th St"
+        ],
+        "coordinate": {
+          "latitude": 31.0933685302734,
+          "longitude": -97.3746643066406
+        },
+        "state_code": "TX"
+      }
+    }
+  ]
+}

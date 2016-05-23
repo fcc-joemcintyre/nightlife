@@ -1,0 +1,79 @@
+.homePage {
+  overflow: auto;
+
+  p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+  h1 {
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    margin: 8px auto 12px auto;
+  }
+  div {
+    text-align: center;
+
+    input[type='text'] {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    button {
+      font-size: 16px;
+      margin-left: 6px;
+    }
+  }
+  .items {
+    background-color: lighten (blue, 90%);
+  }
+}
+
+.bar {
+  @media (max-width:414px) {
+    width: 96%;
+    margin: 4px 1% 4px 1%;
+    border: 1px solid darkgray;
+  }
+  @media (min-width:415px) {
+    width: 47%;
+    margin: 4px 1% 4px 1%;
+    border: 1px solid darkgray;
+  }
+
+  h3 {
+    padding-top: 4px;
+  }
+  .countArea {
+    float: right;
+    margin-bottom: 2px;
+
+    span {
+      margin-right: 4px;
+    }
+    button {
+      margin-right: 4px;
+      padding: 2px;
+    }
+  }
+
+  .imageContainer {
+    float: left;
+    margin-left: 4px;
+  }
+  .descriptionArea {
+    clear: both;
+
+    .imageContainer {
+      float: left;
+      margin-right: 6px;
+    }
+    p {
+      text-align: left;
+      padding: 0px 4px 0px 4px;
+      float: none;
+    }
+  }
+  .addressArea {
+    clear: both;
+    padding-top: 1px;
+  }
+}

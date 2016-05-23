@@ -1,0 +1,955 @@
+{
+  "region": {
+    "span": {
+      "latitude_delta": 0.07828384242041153,
+      "longitude_delta": 0.09930446329079246
+    },
+    "center": {
+      "latitude": 31.522540735263448,
+      "longitude": -97.1676218924049
+    }
+  },
+  "total": 36,
+  "businesses": [
+    {
+      "is_claimed": true,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/the-dancing-bear-pub-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 37,
+      "name": "The Dancing Bear Pub",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/the-dancing-bear-pub-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Pubs",
+          "pubs"
+        ]
+      ],
+      "phone": "2547530025",
+      "snippet_text": "Great pubby atmosphere, good beer selection, friendly staff. Don't judge it by the street view. Recommended.",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ehu5IvNzGJYSllzcslqpTw/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/IBpCQBnrO740_Gv-QfrBzg/ms.jpg",
+      "display_phone": "+1-254-753-0025",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "the-dancing-bear-pub-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "1117 Speight Ave",
+          "Waco, TX 76706"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76706",
+        "country_code": "US",
+        "address": [
+          "1117 Speight Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.540312115774,
+          "longitude": -97.12443826832299
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/dichotomy-coffee-and-spirits-waco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 105,
+      "name": "Dichotomy Coffee & Spirits",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/dichotomy-coffee-and-spirits-waco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Cocktail Bars",
+          "cocktailbars"
+        ],
+        [
+          "Coffee & Tea",
+          "coffee"
+        ]
+      ],
+      "snippet_text": "My friend and I met up in Waco on a Sunday.  Little did we realize nearly everywhere was closed.  But thank god!  Because that led us to this amazing...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_VgtUxk9hLsaajqM3rye2g/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/pDPeVyX6xCs7pm3zVsz-LA/ms.jpg",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "dichotomy-coffee-and-spirits-waco-2",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "508 Austin Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "508 Austin Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.55625,
+          "longitude": -97.13189
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/brazos-bar-and-bistro-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 36,
+      "name": "Brazos Bar & Bistro",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/brazos-bar-and-bistro-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Bars",
+          "bars"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ]
+      ],
+      "menu_date_updated": 1460707156,
+      "phone": "2547547000",
+      "snippet_text": "My fiance and I are currently in an Austin-Dallas long distance relationship. So, this week we decided to meet in Waco, middle ground for the two of us, and...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NhF6yukz6tqSIxTv_ZAomA/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/G3yx2Bn_6eRtp5FXutcAng/ms.jpg",
+      "display_phone": "+1-254-754-7000",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "menu_provider": "single_platform",
+      "id": "brazos-bar-and-bistro-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "Hotel Indigo Waco",
+          "211 Clay Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "Hotel Indigo Waco",
+          "211 Clay Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.5551528930664,
+          "longitude": -97.1251373291016
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/trojan-cork-and-keg-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 12,
+      "name": "Trojan Cork & Keg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/trojan-cork-and-keg-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Bars",
+          "bars"
+        ],
+        [
+          "Breweries",
+          "breweries"
+        ]
+      ],
+      "phone": "2547573800",
+      "snippet_text": "What a difference a new owner makes!\n\nI went there a few months ago and was not impressed, but a friend of mine convinced me to go after work with her one...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/3vazLGQCcrApECbrVe47og/ms.jpg",
+      "snippet_image_url": "https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png",
+      "display_phone": "+1-254-757-3800",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "trojan-cork-and-keg-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "215 Mary Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "215 Mary Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.5574530512094,
+          "longitude": -97.1273455023766
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/muddle-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 19,
+      "name": "Muddle",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/muddle-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Cocktail Bars",
+          "cocktailbars"
+        ],
+        [
+          "Lounges",
+          "lounges"
+        ]
+      ],
+      "phone": "2547530226",
+      "snippet_text": "Always a Fun place to go. The Drinks are always great with real fruit chunks.  The only thing is I wish they had and dance floor.  Always has a lovely...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/a76JlW7F2fV6O0VGKFbCKw/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/W8bp6AlbJVwtT68D-qVhSQ/ms.jpg",
+      "display_phone": "+1-254-753-0226",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "muddle-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "727 Austin Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "727 Austin Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.554919,
+          "longitude": -97.134488
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/crickets-grill-and-draft-house-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 110,
+      "name": "Cricket's Grill & Draft House",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/crickets-grill-and-draft-house-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ]
+      ],
+      "phone": "2547544677",
+      "snippet_text": "What a fun place. Huge room has multiple pool tables, dart boards and more beer taps than I could count. The service is friendly an unobtrusive. I...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/4XgfZ0qRM4Pt8ilXyewp4w/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/8aye3XOxjpTXI-VPfAXyag/ms.jpg",
+      "display_phone": "+1-254-754-4677",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "crickets-grill-and-draft-house-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "211 Mary Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "211 Mary Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.5574792027473,
+          "longitude": -97.1273153275251
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/coachs-xxx-smoke-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 26,
+      "name": "Coach's XXX Smoke",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/coachs-xxx-smoke-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "Barbeque",
+          "bbq"
+        ],
+        [
+          "Burgers",
+          "burgers"
+        ]
+      ],
+      "menu_date_updated": 1460837828,
+      "phone": "2547321200",
+      "snippet_text": "I've been here twice so far when visiting Waco from NYC. I guess you can say it's almost my go to. Delicious Texas bbq, from what my inexperienced palate...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NwtNrTIT2SACPGUBZVEPDw/ms.jpg",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/2g_4WnS1FFO6E_W0NeOLEQ/ms.jpg",
+      "display_phone": "+1-254-732-1200",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "menu_provider": "single_platform",
+      "id": "coachs-xxx-smoke-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "330 Austin Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "330 Austin Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.5581243,
+          "longitude": -97.1302651
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/salty-dog-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 38,
+      "name": "Salty Dog",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/salty-dog-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "American (New)",
+          "newamerican"
+        ]
+      ],
+      "phone": "2547325161",
+      "snippet_text": "We live nearby and go here about twice per week. Good food, good beer selection, mixed drinks are also pretty great. Their French fries, grapefruit...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/sj6huRaKD8gSOx_M7kYTCA/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/ebH7J24exoG_a6QWm892Zw/ms.jpg",
+      "display_phone": "+1-254-732-5161",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "salty-dog-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "2004 N Valley Mills Dr",
+          "Waco, TX 76710"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76710",
+        "country_code": "US",
+        "address": [
+          "2004 N Valley Mills Dr"
+        ],
+        "coordinate": {
+          "latitude": 31.5324982,
+          "longitude": -97.2030664
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/twisted-root-burger-co-waco-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 62,
+      "name": "Twisted Root Burger Co - Waco",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/twisted-root-burger-co-waco-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Dive Bars",
+          "divebars"
+        ],
+        [
+          "Burgers",
+          "burgers"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ]
+      ],
+      "phone": "2543662888",
+      "snippet_text": "I had seen and heard really great things about this burger joint and decided to check it out one day for a late lunch when in Waco. We stopped by around 2pm...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/K86_Zts2UNSHiHsrhJ3zVw/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/0LpKXQg-IY_7xXeLFkoPYQ/ms.jpg",
+      "display_phone": "+1-254-366-2888",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "twisted-root-burger-co-waco-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "801 S 2nd St",
+          "Waco, TX 76706"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76706",
+        "country_code": "US",
+        "address": [
+          "801 S 2nd St"
+        ],
+        "coordinate": {
+          "latitude": 31.55339,
+          "longitude": -97.12259
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/georges-restaurant-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 58,
+      "name": "George's Restaurant",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/georges-restaurant-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ],
+        [
+          "Breakfast & Brunch",
+          "breakfast_brunch"
+        ]
+      ],
+      "phone": "2544202060",
+      "snippet_text": "Best in Waco. Huge menu with options from Mexican, burgers, steaks, and seafood. Can't make a bad choice. \n\nExcellent service regardless of how busy it...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/tJJot9_qtKXpzU3aCnPc1w/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/1wz5ih9ZWNyNb7DqlrkuHA/ms.jpg",
+      "display_phone": "+1-254-420-2060",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "georges-restaurant-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "1201 Hewitt Dr",
+          "Ste 100",
+          "Waco, TX 76712"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76712",
+        "country_code": "US",
+        "address": [
+          "1201 Hewitt Dr",
+          "Ste 100"
+        ],
+        "coordinate": {
+          "latitude": 31.4869571705269,
+          "longitude": -97.2127602848098
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/georges-restaurant-and-bar-waco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 154,
+      "name": "George's Restaurant & Bar",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/georges-restaurant-and-bar-waco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "Southern",
+          "southern"
+        ]
+      ],
+      "menu_date_updated": 1461405109,
+      "phone": "2547531421",
+      "snippet_text": "Dropped by during our road trip to Waco.  My wife and I wanted to try local non-chain restaurants and decided to give George's a try. We both had their...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/0hFsMaaAK4Ra_DrPqwz7EA/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/qx7pXW-9FYmj-tYoy1J9nw/ms.jpg",
+      "display_phone": "+1-254-753-1421",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "menu_provider": "single_platform",
+      "id": "georges-restaurant-and-bar-waco-2",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "1925 Speight Ave",
+          "Waco, TX 76706"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76706",
+        "country_code": "US",
+        "address": [
+          "1925 Speight Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.53387,
+          "longitude": -97.13204
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/barnetts-pub-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 24,
+      "name": "Barnett's Pub",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/barnetts-pub-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Pubs",
+          "pubs"
+        ],
+        [
+          "Sandwiches",
+          "sandwiches"
+        ]
+      ],
+      "menu_date_updated": 1460458219,
+      "phone": "2547141356",
+      "snippet_text": "I've been going to Barnett's for a while and felt like it was time to give an honest review (especially now that it's under new ownership).\n\nThey have an...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/4imjeAMx9c4I2QjWp71U2Q/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/HqqOfg60W3MZqDITQO_pWA/ms.jpg",
+      "display_phone": "+1-254-714-1356",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "menu_provider": "single_platform",
+      "id": "barnetts-pub-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "420 Franklin Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "420 Franklin Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.5559349060059,
+          "longitude": -97.1303634643555
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/truelove-bar-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 4,
+      "name": "Truelove Bar",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/truelove-bar-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Bars",
+          "bars"
+        ]
+      ],
+      "phone": "2547576778",
+      "snippet_text": "Myself and several other docs have started coming here for trivia on Thursdays. \n\nIt was a cool place about a year ago when I first stopped in. And more...",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/qEW-RqDzSUfcw3yQA8Zmeg/ms.jpg",
+      "display_phone": "+1-254-757-6778",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "truelove-bar-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "414 Franklin Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "414 Franklin Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.556068,
+          "longitude": -97.130187
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/hemingways-watering-hole-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 6,
+      "name": "Hemingway's Watering Hole",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/hemingways-watering-hole-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Pubs",
+          "pubs"
+        ],
+        [
+          "Restaurants",
+          "restaurants"
+        ]
+      ],
+      "phone": "2547769733",
+      "snippet_text": "Great little neighborhood bar, friendly bartender, great beer selection and good cold wine. I was worried after reading post that said you have to be a...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/qP1OpYA2BoFELM9Pm_T0GQ/ms.jpg",
+      "snippet_image_url": "https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png",
+      "display_phone": "+1-254-776-9733",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "hemingways-watering-hole-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "4700 Bosque Blvd Ste B",
+          "Waco, TX 76710"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76710",
+        "country_code": "US",
+        "address": [
+          "4700 Bosque Blvd Ste B"
+        ],
+        "coordinate": {
+          "latitude": 31.5358371734619,
+          "longitude": -97.1864700317383
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/las-palmas-mexican-seafood-and-bar-waco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 10,
+      "name": "Las Palmas Mexican Seafood and Bar",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/las-palmas-mexican-seafood-and-bar-waco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Bars",
+          "bars"
+        ],
+        [
+          "Seafood",
+          "seafood"
+        ],
+        [
+          "Mexican",
+          "mexican"
+        ]
+      ],
+      "phone": "2542352586",
+      "snippet_text": "Just left this place and it was awesome! Red Snapper Diablo and Bacon wrapped Shrimp, cold beer, great Bloody Marys (per The wife who makes award winning...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/WESeLM1tftxmlXbMXltePw/ms.jpg",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/10gn5sU2TZZk7oMJ6Zlkbg/ms.jpg",
+      "display_phone": "+1-254-235-2586",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "las-palmas-mexican-seafood-and-bar-waco-2",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "600 N New Rd",
+          "Waco, TX 76710"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76710",
+        "country_code": "US",
+        "address": [
+          "600 N New Rd"
+        ],
+        "coordinate": {
+          "latitude": 31.52767,
+          "longitude": -97.17371
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/klassy-glass-wine-bar-and-bistro-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 20,
+      "name": "Klassy Glass Wine Bar & Bistro",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/klassy-glass-wine-bar-and-bistro-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Wine Bars",
+          "wine_bars"
+        ],
+        [
+          "Venues & Event Spaces",
+          "venues"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ]
+      ],
+      "phone": "2547521808",
+      "snippet_text": "Great place in Waco to go and grab a quick bite and a great glass of wine.  The owner and staff where fantastic and very welcoming.  We had the spinach dip...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/49blWyvA-BAy1S1dKZOIAg/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/136OyAbUuJ1UjbqIAS0tdg/ms.jpg",
+      "display_phone": "+1-254-752-1808",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "klassy-glass-wine-bar-and-bistro-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "723 Austin Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "723 Austin Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.5548134,
+          "longitude": -97.1342926
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 3,
+      "mobile_url": "http://m.yelp.com/biz/hooters-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+      "review_count": 15,
+      "name": "Hooters",
+      "rating_img_url_small": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png",
+      "url": "http://www.yelp.com/biz/hooters-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "Chicken Wings",
+          "chicken_wings"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ]
+      ],
+      "menu_date_updated": 1450743875,
+      "phone": "2547529464",
+      "snippet_text": "I've never been a huge Hooters fan, until I moved to Waco. Finding Angry Orchard on draft is a challenge here but thankfully this place has saved my day (on...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/mmSi5c-PPzwSkg4lHIwW7w/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/fn0vOSoJ7izsCAJNMoGZtA/ms.jpg",
+      "display_phone": "+1-254-752-9464",
+      "rating_img_url_large": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+      "menu_provider": "single_platform",
+      "id": "hooters-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "3921 S Jack Kultgen Fwy",
+          "Waco, TX 76711"
+        ],
+        "geo_accuracy": 9.5,
+        "postal_code": "76711",
+        "country_code": "US",
+        "address": [
+          "3921 S Jack Kultgen Fwy"
+        ],
+        "coordinate": {
+          "latitude": 31.5107552977203,
+          "longitude": -97.1426584671688
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/clicks-billiards-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 4,
+      "name": "Clicks Billiards",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/clicks-billiards-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Sports Bars",
+          "sportsbars"
+        ],
+        [
+          "Pool Halls",
+          "poolhalls"
+        ]
+      ],
+      "phone": "2547762261",
+      "snippet_text": "Great bartenders and staff. Very attentive amd welcoming. Came here to watch football so dont know much about the tables.",
+      "snippet_image_url": "https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png",
+      "display_phone": "+1-254-776-2261",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "clicks-billiards-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "1200 Richland",
+          "Ste F",
+          "Waco, TX 76710"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76710",
+        "country_code": "US",
+        "address": [
+          "1200 Richland",
+          "Ste F"
+        ],
+        "coordinate": {
+          "latitude": 31.5302085876465,
+          "longitude": -97.1940994262695
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 2.5,
+      "mobile_url": "http://m.yelp.com/biz/oakleys-texas-bar-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c7fb9aff59f9/ico/stars/v1/stars_2_half.png",
+      "review_count": 5,
+      "name": "Oakley's Texas Bar",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/8e8633e5f8f0/ico/stars/v1/stars_small_2_half.png",
+      "url": "http://www.yelp.com/biz/oakleys-texas-bar-waco?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Bars",
+          "bars"
+        ]
+      ],
+      "phone": "2547767372",
+      "snippet_text": "This place was really just alright. Played great music, had the game on, drinks where strong and worth every penny! \n\nSo my grievances is with customer...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/l6ZOtS8Jy5j0xgTYI5R2DA/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/fn0vOSoJ7izsCAJNMoGZtA/ms.jpg",
+      "display_phone": "+1-254-776-7372",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/d63e3add9901/ico/stars/v1/stars_large_2_half.png",
+      "id": "oakleys-texas-bar-waco",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "816 N Valley Mills Dr",
+          "Waco, TX 76710"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76710",
+        "country_code": "US",
+        "address": [
+          "816 N Valley Mills Dr"
+        ],
+        "coordinate": {
+          "latitude": 31.52914,
+          "longitude": -97.179688
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/5th-street-icehouse-waco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 4,
+      "name": "5th Street Icehouse",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/5th-street-icehouse-waco-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=5qHvTJw1trlBHjiaO5c5MA",
+      "categories": [
+        [
+          "Hookah Bars",
+          "hookah_bars"
+        ]
+      ],
+      "phone": "2544054422",
+      "snippet_text": "My husband & I had a great time while we were here. A little small, but great bartenders & great music. It was about a year ago that we went, so hopefully...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/UxC_fuEjYfEEhOreFYohAA/ms.jpg",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/L_g4L2YA4DGXPuaqEfZrIA/ms.jpg",
+      "display_phone": "+1-254-405-4422",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "5th-street-icehouse-waco-2",
+      "is_closed": false,
+      "location": {
+        "city": "Waco",
+        "display_address": [
+          "500 Austin Ave",
+          "Waco, TX 76701"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "76701",
+        "country_code": "US",
+        "address": [
+          "500 Austin Ave"
+        ],
+        "coordinate": {
+          "latitude": 31.5564651489258,
+          "longitude": -97.1317825317383
+        },
+        "state_code": "TX"
+      }
+    }
+  ]
+}
