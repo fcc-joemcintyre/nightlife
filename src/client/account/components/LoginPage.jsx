@@ -1,12 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router';
 import {login} from '../store/actions';
+import FilteredInput from '../../ui/FilteredInput.jsx';
+
+const nameChars = /[A-Za-z0-9]/;
+const pwChars = /[A-Za-z0-9!@#$%^&*-+_=]/;
 
 export default class LoginPage extends React.Component {
   constructor (props, context) {
     super (props, context);
     this.state = {
-      user: '',
+      username: '',
       password: '',
       error: false
     }
@@ -15,8 +19,8 @@ export default class LoginPage extends React.Component {
 
   login (event) {
     event.preventDefault ();
-    if (! ((this.state.user === '') || (this.state.password === ''))) {
-      this.context.store.dispatch (login (this.state.user, this.state.password))
+    if (! ((this.state.username === '') || (this.state.password === ''))) {
+      this.context.store.dispatch (login (this.state.username, this.state.password))
       .then (success => {
         this.setState ({ error: false });
         if (this.props.location.state && this.props.location.state.nextPathname) {
@@ -43,18 +47,26 @@ export default class LoginPage extends React.Component {
         <hr/>
         <form onSubmit={this.login}>
           {errorMessage}
-          <input autoFocus={true}
+          <FilteredInput autoFocus={true}
             type='text'
             placeholder='user name'
+            maxLength={20}
             autoCapitalize='none'
             autoCorrect='off'
-            onChange={(event) => { this.setState ({user: event.target.value}); }}/>
+            filter={nameChars}
+            onChange={(e) => {
+              this.setState ({username: e.target.value});
+            }}/>
           <input
             type='password'
             placeholder='password'
-            onChange={(event) => { this.setState ({password: event.target.value}); }}/>
+            maxLength={20}
+            filter={pwChars}
+            onChange={(e) => {
+              this.setState ({password: e.target.value});
+            }}/>
           <button className='dialogButton'
-            disabled={(this.state.user === '') || (this.state.password === '')}>
+            disabled={(this.state.username === '') || (this.state.password === '')}>
             Login
           </button>
         </form>

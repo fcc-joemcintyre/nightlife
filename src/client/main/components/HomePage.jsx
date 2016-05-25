@@ -55,7 +55,9 @@ export default class HomePage extends React.Component {
       <div className='homePage'>
         <h1>Find your destinations for tonight</h1>
         <div>
-          <input type='text' placeholder='City or Zip Code'
+          <input type='text'
+            placeholder='City or Zip Code'
+            maxLength={30}
             onChange={(e) => { this.setState ({location: e.target.value}); }}
             onKeyPress={(e) => {
               if (e.key === 'Enter') {

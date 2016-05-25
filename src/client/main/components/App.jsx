@@ -11,7 +11,6 @@ import HomePage from './HomePage.jsx';
 import RegisterPage from '../../account/components/RegisterPage.jsx';
 import LoginPage from '../../account/components/LoginPage.jsx';
 import LogoutPage from '../../account/components/LogoutPage.jsx';
-import ProfilePage from '../../account/components/ProfilePage.jsx';
 import NotFoundPage from './NotFoundPage.jsx';
 import AboutPage from './AboutPage.jsx';
 

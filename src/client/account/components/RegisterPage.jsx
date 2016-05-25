@@ -1,12 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router';
 import {register, login} from '../store/actions';
+import FilteredInput from '../../ui/FilteredInput.jsx';
+
+const nameChars = /[A-Za-z0-9]/;
+const pwChars = /[A-Za-z0-9!@#$%^&*-+_=]/;
 
 export default class RegisterPage extends React.Component {
   constructor (props, context) {
     super (props, context);
     this.state = {
-      user: '',
+      username: '',
       password: '',
       verify: '',
       error: false
@@ -16,10 +20,10 @@ export default class RegisterPage extends React.Component {
 
   register (event) {
     event.preventDefault ();
-    if (! ((this.state.user === '') || (this.state.password === ''))) {
-      this.context.store.dispatch (register (this.state.user, this.state.password))
+    if (! ((this.state.username === '') || (this.state.password === ''))) {
+      this.context.store.dispatch (register (this.state.username, this.state.password))
       .then (success => {
-        this.context.store.dispatch (login (this.state.user, this.state.password))
+        this.context.store.dispatch (login (this.state.username, this.state.password))
         .then (success => {
           this.setState ({ error: false });
           if (this.props.location.state && this.props.location.nextPathname) {
@@ -41,22 +45,35 @@ export default class RegisterPage extends React.Component {
         <h2>Register</h2>
         <hr/>
         <form onSubmit={this.register}>
-          <input autoFocus={true}
+          <FilteredInput
+            autoFocus={true}
             type='text'
             placeholder='user name'
+            maxLength={20}
             autoCapitalize='none'
             autoCorrect='off'
-            onChange={event => { this.setState ({user: event.target.value}); }}/>
-          <input
+            filter={nameChars}
+            onChange={e => {
+              this.setState ({username: e.target.value});
+            }}/>
+          <FilteredInput
             type='password'
             placeholder='password'
-            onChange={event => { this.setState ({password: event.target.value}); }}/>
-          <input
+            maxLength={20}
+            filter={pwChars}
+            onChange={e => {
+              this.setState ({password: e.target.value});
+            }}/>
+          <FilteredInput
             type='password'
             placeholder='verify password'
-            onChange={event => { this.setState ({verify: event.target.value}); }}/>
+            maxLength={20}
+            filter={pwChars}
+            onChange={e => {
+              this.setState ({verify: e.target.value});
+            }}/>
           <button className='dialogButton'
-            disabled={(this.state.user === '') || (this.state.password === '')
+            disabled={(this.state.username === '') || (this.state.password === '')
               || (this.state.password !== this.state.verify)}>
             Register
           </button>
