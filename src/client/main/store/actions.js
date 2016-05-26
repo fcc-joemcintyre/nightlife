@@ -1,12 +1,11 @@
 import { SET_BARS, SET_BAR_COUNT, CLEAR_GOING, SET_GOING } from './constants';
 import request from 'request';
-import wlocation from '../../util/wlocation';
 
 // get bars matching location and populate store
-export function setBars (location) {
+export function setBars (terms) {
   return dispatch => {
     return new Promise ((resolve, reject) => {
-      request.get (wlocation.origin + '/api/bars?loc=' + location, (err, res, body) => {
+      request.get (location.origin + '/api/bars?loc=' + terms, (err, res, body) => {
         if (err) {
           reject (err);
         } else if (res.statusCode !== 200) {
@@ -29,7 +28,7 @@ export function updateGoing (bars, username, add) {
         dispatch ({ type: CLEAR_GOING });
       } else {
         let api = '/api/going';
-        request.get (wlocation.origin + api, {}, (err, res, body) => {
+        request.get (location.origin + api, {}, (err, res, body) => {
           if (err) {
             reject (err);
           } else if (res.statusCode !== 200) {
@@ -50,7 +49,7 @@ export function going (bar, going) {
   return dispatch => {
     return new Promise ((resolve, reject) => {
       let api = '/api/bars/' + bar.id + '/going/' + (going ? '1' : '0');
-      request.post (wlocation.origin + api, {}, (err, res, body) => {
+      request.post (location.origin + api, {}, (err, res, body) => {
         if (err) {
           reject (err);
         } else if (res.statusCode !== 200) {

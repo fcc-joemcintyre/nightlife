@@ -1,12 +1,11 @@
 import { SET_AUTHENTICATED } from './constants';
 import request from 'request';
-import wlocation from '../../util/wlocation';
 
 export function register (id, password) {
   return dispatch => {
     return new Promise ((resolve, reject) => {
       let form = { form: {username: id, password: password}};
-      request.post (wlocation.origin + '/api/register', form, (err, res, body) => {
+      request.post (location.origin + '/api/register', form, (err, res, body) => {
         if (err) {
           reject (err);
         } else if (res.statusCode !== 200) {
@@ -23,7 +22,7 @@ export function login (id, password) {
   return dispatch => {
     return new Promise ((resolve, reject) => {
       let form = { form: {username: id, password: password}};
-      request.post (wlocation.origin + '/api/login', form, (err, res, body) => {
+      request.post (location.origin + '/api/login', form, (err, res, body) => {
         if (err) {
           reject (err);
         } else if (res.statusCode !== 200) {
@@ -41,7 +40,7 @@ export function login (id, password) {
 export function logout () {
   return dispatch => {
     return new Promise ((resolve, reject) => {
-      request.post (wlocation.origin + '/api/logout', (err, res, body) => {
+      request.post (location.origin + '/api/logout', (err, res, body) => {
         dispatch (setAuthenticated (false, ''));
         if (err) {
           reject (err);
@@ -58,7 +57,7 @@ export function logout () {
 export function verifyLogin () {
   return dispatch => {
     return new Promise ((resolve, reject) => {
-      request.get (wlocation.origin + '/api/verifylogin', (err, res, body) => {
+      request.get (location.origin + '/api/verifylogin', (err, res, body) => {
         if (err) {
           reject (err);
         } else if (res.statusCode !== 200) {
