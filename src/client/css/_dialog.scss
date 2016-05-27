@@ -38,6 +38,8 @@
 
     input[type=text] {
       display: block;
+      width: 90%;
+      max-width: 380px;
       margin: 16px auto 0px auto;
       height: 32px;
       font-size: 20px;
@@ -49,6 +51,8 @@
     }
     input[type=password] {
       display: block;
+      width: 90%;
+      max-width: 380px;
       margin: 16px auto 0px auto;
       height: 32px;
       font-size: 20px;
@@ -57,42 +61,6 @@
       background-position: 2px 12px;
       background-repeat: no-repeat;
       padding-left: 30px;
-    }
-  }
-}
-
-.dialogProfile {
-  margin: 16px auto 0px auto;
-  width: 90%;
-  max-width: 400px;
-  border: 1px solid lightgray;
-  border-radius: 8px;
-  background-color: rgba(0,0,255,0.02);
-  font-family: sans-serif;
-
-  h2 {
-    margin-left: 12px;
-  }
-  form {
-    margin-top: 12px;
-
-    div {
-      margin: 0px 0px 8px 8px;
-
-      label {
-        display: inline-block;
-        font-size: 16px;
-        font-family: 'Lato', sans-serif;
-        width: 60px;
-        text-align: right;
-        margin-right: 8px;
-      }
-      input[type=text] {
-        font-size: 16px;
-        border-radius: 8px;
-        width: 200px;
-        padding: 2px;
-      }
     }
   }
 }
