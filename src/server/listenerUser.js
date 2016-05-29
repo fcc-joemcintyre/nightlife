@@ -9,24 +9,28 @@ function init () {
 // Login, authenticating user and creating a session
 function login (req, res, next) {
   console.log ('login');
-  passport.authenticate ('local', (err, user, info) => {
-    if (err) {
-      return next (err);
-    }
-    // if not a valid user, return 401 auth error
-    if (! user) {
-      console.log ('  login', 'unauthenticated');
-      return res.status (401).json ({});
-    }
-    req.login (user, (err) => {
+  if (! (req.body && req.body.username && req.body.password)) {
+    res.status (400).json ({});
+  } else {
+    passport.authenticate ('local', (err, user, info) => {
       if (err) {
         return next (err);
       }
-      console.log ('  login', user.username);
-      let result = { username: user.username };
-      return res.status (200).json (result);
-    });
-  })(req, res, next);
+      // if not a valid user, return 401 auth error
+      if (! user) {
+        console.log ('  login', 'unauthenticated');
+        return res.status (401).json ({});
+      }
+      req.login (user, (err) => {
+        if (err) {
+          return next (err);
+        }
+        console.log ('  login', user.username);
+        let result = { username: user.username };
+        return res.status (200).json (result);
+      });
+    })(req, res, next);
+  }
 }
 
 // logout, closing session

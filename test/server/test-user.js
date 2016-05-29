@@ -154,6 +154,42 @@ describe ('login/logout/register', () => {
 });
 
 describe ('REST call validation', () => {
+  describe ('login: missing body', () => {
+    it ('should fail with 400', (done) => {
+      request.post (`${url}api/login`, {form: {}}, (err, res, body) => {
+        if (err) { return done (err); }
+        if (res.statusCode === 400) {
+          return done ();
+        }
+        return done (new Error (`Invalid statusCode ${res.statusCode}`));
+      });
+    });
+  });
+
+  describe ('Login: missing username', () => {
+    it ('should fail with 400', (done) => {
+      request.post (`${url}api/login`, {form: { password: 'password'}}, (err, res, body) => {
+        if (err) { return done (err); }
+        if (res.statusCode === 400) {
+          return done ();
+        }
+        return done (new Error (`Invalid statusCode ${res.statusCode}`));
+      });
+    });
+  });
+
+  describe ('login: missing password', () => {
+    it ('should fail with 400', (done) => {
+      request.post (`${url}api/login`, {form: { username: 'username'}}, (err, res, body) => {
+        if (err) { return done (err); }
+        if (res.statusCode === 400) {
+          return done ();
+        }
+        return done (new Error (`Invalid statusCode ${res.statusCode}`));
+      });
+    });
+  });
+
   describe ('register: missing body', () => {
     it ('should fail with 400', (done) => {
       request.post (`${url}api/register`, (err, res, body) => {
