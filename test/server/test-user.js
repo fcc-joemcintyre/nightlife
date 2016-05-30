@@ -2,9 +2,9 @@
 const request = require ('request');
 const url = require ('./test-main').url;
 
-describe ('login/logout/register', () => {
-  describe ('valid login request', () => {
-    it ('should return valid login', (done) => {
+describe ('login/logout/register', function () {
+  describe ('valid login request', function () {
+    it ('should return valid login', function (done) {
       let form = { form: {username:'amy', password:'test'}};
       request.post (`${url}api/login`, form, (err, res, body) => {
         if (err) { return done (err); }
@@ -16,8 +16,8 @@ describe ('login/logout/register', () => {
     });
   });
 
-  describe ('invalid login request', () => {
-    it ('should return 401 error', (done) => {
+  describe ('invalid login request', function () {
+    it ('should return 401 error', function (done) {
       let form = { form: {username:'notauser', password:'test'}};
       request.post (`${url}api/login`, form, (err, res, body) => {
         if (err) { return done (err); }
@@ -29,8 +29,8 @@ describe ('login/logout/register', () => {
     });
   });
 
-  describe ('valid login and logout request', () => {
-    it ('should have no errors', (done) => {
+  describe ('valid login and logout request', function () {
+    it ('should have no errors', function (done) {
       let form = { form: {username:'amy', password:'test'}};
       request.post (`${url}api/login`, form, (err, res, body) => {
         if (err) { return done (err); }
@@ -49,9 +49,9 @@ describe ('login/logout/register', () => {
     });
   });
 
-  describe ('check authentication for logged in user', () => {
+  describe ('check authentication for logged in user', function () {
     let cookie;
-    before ((done) => {
+    before (function (done) {
       let form = { form: {username:'amy', password:'test'}};
       request.post (`${url}api/login`, form, (err, res, body) => {
         if (err) { return done (err); }
@@ -62,13 +62,13 @@ describe ('login/logout/register', () => {
       });
     });
 
-    after ((done) => {
+    after (function (done) {
       request.post (`${url}api/logout`, (err, res, body) => {
         done ();
       });
     });
 
-    it ('should have no errors', (done) => {
+    it ('should have no errors', function (done) {
       let jar = request.jar ();
       jar.setCookie (cookie, 'http://localhost:3000');
       request.get ({url: `${url}api/verifylogin`, jar: jar}, (err, res, body) => {
@@ -87,8 +87,8 @@ describe ('login/logout/register', () => {
     });
   });
 
-  describe ('check authentication for no logged in user', () => {
-    it ('should return false with no errors', (done) => {
+  describe ('check authentication for no logged in user', function () {
+    it ('should return false with no errors', function (done) {
       request.get (`${url}api/verifylogin`, (err, res, body) => {
         if (res.statusCode === 200) {
           body = JSON.parse (body);
@@ -104,8 +104,8 @@ describe ('login/logout/register', () => {
     });
   });
 
-  describe ('register, login and logout', () => {
-    it ('should have no errors', (done) => {
+  describe ('register, login and logout', function () {
+    it ('should have no errors', function (done) {
       let form = { form: {username:'newuser', password:'test'}};
       request.post (`${url}api/register`, form, (err, res, body) => {
         if (err) { return done (err); }
@@ -132,8 +132,8 @@ describe ('login/logout/register', () => {
     });
   });
 
-  describe ('register same user twice', () => {
-    it ('should fail on second register call', (done) => {
+  describe ('register same user twice', function () {
+    it ('should fail on second register call', function (done) {
       let form = { form: {username:'newuser2', password:'test'}};
       request.post (`${url}api/register`, form, (err, res, body) => {
         if (err) { return done (err); }
@@ -153,9 +153,9 @@ describe ('login/logout/register', () => {
   });
 });
 
-describe ('REST call validation', () => {
-  describe ('login: missing body', () => {
-    it ('should fail with 400', (done) => {
+describe ('REST call validation', function () {
+  describe ('login: missing body', function () {
+    it ('should fail with 400', function (done) {
       request.post (`${url}api/login`, {form: {}}, (err, res, body) => {
         if (err) { return done (err); }
         if (res.statusCode === 400) {
@@ -166,8 +166,8 @@ describe ('REST call validation', () => {
     });
   });
 
-  describe ('Login: missing username', () => {
-    it ('should fail with 400', (done) => {
+  describe ('Login: missing username', function () {
+    it ('should fail with 400', function (done) {
       request.post (`${url}api/login`, {form: { password: 'password'}}, (err, res, body) => {
         if (err) { return done (err); }
         if (res.statusCode === 400) {
@@ -178,8 +178,8 @@ describe ('REST call validation', () => {
     });
   });
 
-  describe ('login: missing password', () => {
-    it ('should fail with 400', (done) => {
+  describe ('login: missing password', function () {
+    it ('should fail with 400', function (done) {
       request.post (`${url}api/login`, {form: { username: 'username'}}, (err, res, body) => {
         if (err) { return done (err); }
         if (res.statusCode === 400) {
@@ -190,8 +190,8 @@ describe ('REST call validation', () => {
     });
   });
 
-  describe ('register: missing body', () => {
-    it ('should fail with 400', (done) => {
+  describe ('register: missing body', function () {
+    it ('should fail with 400', function (done) {
       request.post (`${url}api/register`, (err, res, body) => {
         if (err) { return done (err); }
         if (res.statusCode === 400) {
@@ -202,8 +202,8 @@ describe ('REST call validation', () => {
     });
   });
 
-  describe ('register: missing username', () => {
-    it ('should fail with 400', (done) => {
+  describe ('register: missing username', function () {
+    it ('should fail with 400', function (done) {
       request.post (`${url}api/register`, {form: { password: 'password'}}, (err, res, body) => {
         if (err) { return done (err); }
         if (res.statusCode === 400) {
@@ -214,8 +214,8 @@ describe ('REST call validation', () => {
     });
   });
 
-  describe ('register: missing password', () => {
-    it ('should fail with 400', (done) => {
+  describe ('register: missing password', function () {
+    it ('should fail with 400', function (done) {
       request.post (`${url}api/register`, {form: { username: 'username'}}, (err, res, body) => {
         if (err) { return done (err); }
         if (res.statusCode === 400) {

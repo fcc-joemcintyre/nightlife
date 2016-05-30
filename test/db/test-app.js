@@ -1,12 +1,11 @@
 'use strict';
 const testdb = require ('./test-main').testdb;
 const db = require ('../../dist/db');
-const promiseTry = require ('../promiseTry');
 
-describe ('bars', () => {
-  describe ('query existing bar', () => {
-    it ('should be found', (done) => {
-      promiseTry (() => {
+describe ('bars', function () {
+  describe ('query existing bar', function () {
+    it ('should be found', function (done) {
+      Promise.resolve ().then (() => {
         return db.getBarByYelpId ('the-dancing-bear-pub-waco');
       }).then (result => {
         if (result) {
@@ -20,9 +19,9 @@ describe ('bars', () => {
     });
   });
 
-  describe ('query non-existing bar', () => {
-    it ('should not be found', (done) => {
-      promiseTry (() => {
+  describe ('query non-existing bar', function () {
+    it ('should not be found', function (done) {
+      Promise.resolve ().then (() => {
         return db.getBarByYelpId ('not-a-valid-id');
       }).then (result => {
         if (result) {
@@ -36,9 +35,9 @@ describe ('bars', () => {
     });
   });
 
-  describe ('add new bar', () => {
-    it ('should have inserted count 1', (done) => {
-      promiseTry (() => {
+  describe ('add new bar', function () {
+    it ('should have inserted count 1', function (done) {
+      Promise.resolve ().then (() => {
         return db.insertBar ({ id:'new-bar', groups: [] });
       }).then (count => {
         if (count === 1) {
@@ -52,9 +51,9 @@ describe ('bars', () => {
     });
   });
 
-  describe ('add duplicate bar', () => {
-    it ('should have inserted count 0', (done) => {
-      promiseTry (() => {
+  describe ('add duplicate bar', function () {
+    it ('should have inserted count 0', function (done) {
+      Promise.resolve ().then (() => {
         return db.insertBar ({ id:'the-dancing-bear-pub-waco', groups: [] });
       }).then (count => {
         if (count === 0) {
@@ -69,9 +68,9 @@ describe ('bars', () => {
   });
 });
 
-describe ('patrons', () => {
-  beforeEach ((done) => {
-    promiseTry (() => {
+describe ('patrons', function () {
+  beforeEach (function (done) {
+    Promise.resolve ().then (() => {
       return testdb.bars.update (
         { id: 'the-dancing-bear-pub-waco' },
         { $set: { going: [] } }
@@ -83,9 +82,9 @@ describe ('patrons', () => {
     });
   });
 
-  describe ('add patron to bar', () => {
-    it ('should show username added to going list', (done) => {
-      promiseTry (() => {
+  describe ('add patron to bar', function () {
+    it ('should show username added to going list', function (done) {
+      Promise.resolve ().then (() => {
         return db.setGoing ('the-dancing-bear-pub-waco', 'amy', true);
       }).then (() => {
         return db.getGoing ('the-dancing-bear-pub-waco');
@@ -100,9 +99,9 @@ describe ('patrons', () => {
     });
   });
 
-  describe ('add 2 patrons to bar', () => {
-    it ('should show 2 on going list', (done) => {
-      promiseTry (() => {
+  describe ('add 2 patrons to bar', function () {
+    it ('should show 2 on going list', function (done) {
+      Promise.resolve ().then (() => {
         return db.setGoing ('the-dancing-bear-pub-waco', 'amy', true);
       }).then (() => {
         return db.setGoing ('the-dancing-bear-pub-waco', 'bob', true);
@@ -119,9 +118,9 @@ describe ('patrons', () => {
     });
   });
 
-  describe ('add duplicate patron to bar', () => {
-    it ('should show 1 on going list', (done) => {
-      promiseTry (() => {
+  describe ('add duplicate patron to bar', function () {
+    it ('should show 1 on going list', function (done) {
+      Promise.resolve ().then (() => {
         return db.setGoing ('the-dancing-bear-pub-waco', 'amy', true);
       }).then (() => {
         return db.setGoing ('the-dancing-bear-pub-waco', 'amy', true);
@@ -138,9 +137,9 @@ describe ('patrons', () => {
     });
   });
 
-  describe ('add and remove patron', () => {
-    it ('should show 0 on going list', (done) => {
-      promiseTry (() => {
+  describe ('add and remove patron', function () {
+    it ('should show 0 on going list', function (done) {
+      Promise.resolve ().then (() => {
         return db.setGoing ('the-dancing-bear-pub-waco', 'amy', true);
       }).then (() => {
         return db.setGoing ('the-dancing-bear-pub-waco', 'amy', false);

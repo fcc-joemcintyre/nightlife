@@ -1,25 +1,30 @@
 'use strict';
 const db = require ('../../dist/db');
-const promiseTry = require ('../promiseTry');
 
-describe ('users', () => {
-  beforeEach ((done) => {
-    promiseTry (() => {
+describe ('users', function () {
+  beforeEach (function (done) {
+    Promise.resolve ().then (() => {
       return db.insertUser ('amy', 'test');
-    }).then (() => { done ();
-    }).catch (err => { done (err); });
+    }).then (() => {
+      done ();
+    }).catch (err => {
+      done (err);
+    });
   });
 
-  afterEach ((done) => {
-    promiseTry (() => {
+  afterEach (function (done) {
+    Promise.resolve ().then (() => {
       return db.removeUser ('amy');
-    }).then (() => { done ();
-    }).catch (err => { done (err); });
+    }).then (() => {
+      done ();
+    }).catch (err => {
+      done (err);
+    });
   });
 
-  describe ('find amy', () => {
-    it ('should be found', (done) => {
-      promiseTry (() => {
+  describe ('find amy', function () {
+    it ('should be found', function (done) {
+      Promise.resolve ().then (() => {
         return db.findUserByUsername ('amy');
       }).then (result => {
         if (result) {
@@ -27,13 +32,15 @@ describe ('users', () => {
         } else {
           done (new Error ('not found'));
         }
-      }).catch (err => { done (err); });
+      }).catch (err => {
+        done (err);
+      });
     });
   });
 
-  describe ('find amyy', () => {
-    it ('should not be found', (done) => {
-      promiseTry (() => {
+  describe ('find amyy', function () {
+    it ('should not be found', function (done) {
+      Promise.resolve ().then (() => {
         return db.findUserByUsername ('amyy');
       }).then (result => {
         if (result) {
@@ -41,7 +48,9 @@ describe ('users', () => {
         } else {
           done ();
         }
-      }).catch (err => { done (err); });
+      }).catch (err => {
+        done (err);
+      });
     });
   });
 });

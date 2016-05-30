@@ -1,7 +1,6 @@
 'use strict';
 const mongoClient = require ('mongodb').MongoClient;
 const db = require ('../../dist/db');
-const promiseTry = require ('../promiseTry');
 
 const uri = 'mongodb://localhost:27017/nightlifeTest';
 let testdb = {
@@ -11,8 +10,8 @@ let testdb = {
 };
 exports.testdb = testdb;
 
-before ((done) => {
-  promiseTry (() => {
+before (function (done) {
+  Promise.resolve ().then (() => {
     return mongoClient.connect (uri);
   }).then (db => {
     testdb.db = db;
@@ -44,8 +43,8 @@ before ((done) => {
   });
 });
 
-after ((done) => {
-  promiseTry (() => {
+after (function (done) {
+  Promise.resolve ().then (() => {
     testdb.db.close ();
   }).then (() => {
     done ();
@@ -54,11 +53,11 @@ after ((done) => {
   });
 });
 
-describe ('test-main', () => {
-  describe ('test-user', () => {
+describe ('test-main', function () {
+  describe ('test-user', function () {
     require ('./test-user');
   });
-  describe ('test-app', () => {
+  describe ('test-app', function () {
     require ('./test-app');
   });
 });

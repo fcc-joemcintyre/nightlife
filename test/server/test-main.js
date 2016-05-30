@@ -2,7 +2,6 @@
 const mongoClient = require ('mongodb').MongoClient;
 const server = require ('../../dist/server');
 const db = require ('../../dist/db');
-const promiseTry = require ('../promiseTry');
 
 const port = 3999;
 const url = `http://localhost:${port}/`;
@@ -22,8 +21,8 @@ class Yelp {
   }
 }
 
-before ((done) => {
-  promiseTry (() => {
+before (function (done) {
+  Promise.resolve ().then (() => {
     return resetDatabase ();
   }).then (() => {
     return db.init (dbURI);
@@ -36,28 +35,31 @@ before ((done) => {
   }).then (() => {
     let yelp = new Yelp ();
     return server.start (port, dbURI, yelp);
-  }).then (() => { done (); })
-  .catch (err => { done (err); });
+  }).then (() => {
+    done ();
+  }).catch (err => {
+    done (err);
+  });
 });
 
 function resetDatabase () {
   return new Promise ((resolve, reject) => {
-    promiseTry (() => {
+    Promise.resolve ().then (() => {
       return mongoClient.connect (dbURI);
     }).then (instance => {
       let db = instance;
       let users = db.collection ('users');
-      users.ensureIndex ({username: 1}, {unique: true})
-      .then (() => {
+      let bars = db.collection ('bars');
+      Promise.resolve ().then (() => {
+        return users.ensureIndex ({username: 1}, {unique: true});
+      }).then (() => {
         return users.remove ({});
       }).then (() => {
-        let bars = db.collection ('bars');
-        bars.ensureIndex ({id: 1}, {unique: true})
-        .then (() => {
-          return bars.remove ({});
-        }).then (() => {
-          resolve ();
-        });
+        return bars.ensureIndex ({id: 1}, {unique: true});
+      }).then (() => {
+        return bars.remove ({});
+      }).then (() => {
+        resolve ();
       });
     }).catch (err => {
       reject (err);
@@ -65,17 +67,17 @@ function resetDatabase () {
   });
 }
 
-describe ('test-main', () => {
-  describe ('test-cmd', () => {
+describe ('test-main', function () {
+  describe ('test-cmd', function () {
     require ('./test-cmd');
   });
-  describe ('test-page', () => {
+  describe ('test-page', function () {
     require ('./test-page');
   });
-  describe ('test-user', () => {
+  describe ('test-user', function () {
     require ('./test-user');
   });
-  describe ('test-app', () => {
+  describe ('test-app', function () {
     require ('./test-app');
   });
 });
