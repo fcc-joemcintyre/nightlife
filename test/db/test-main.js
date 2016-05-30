@@ -13,8 +13,8 @@ exports.testdb = testdb;
 before (function (done) {
   Promise.resolve ().then (() => {
     return mongoClient.connect (uri);
-  }).then (db => {
-    testdb.db = db;
+  }).then (dbInstance => {
+    testdb.db = dbInstance;
     testdb.users = testdb.db.collection ('users');
     return testdb.users.ensureIndex ({username: 1}, {unique: true});
   }).then (() => {
@@ -33,8 +33,6 @@ before (function (done) {
     ];
     return testdb.bars.insert (data, {w:1});
   }).then (() => {
-    return db.close ();
-  }).then (() => {
     return db.init (uri);
   }).then (() => {
     done ();
@@ -45,7 +43,9 @@ before (function (done) {
 
 after (function (done) {
   Promise.resolve ().then (() => {
-    testdb.db.close ();
+    return db.close ();
+  }).then (() => {
+    return testdb.db.close ();
   }).then (() => {
     done ();
   }).catch (err => {
