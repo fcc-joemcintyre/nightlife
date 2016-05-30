@@ -9,22 +9,26 @@ let bars = null;
 
 // connect to database and set up collections
 function init (uri) {
+  console.log ('db.init');
   return new Promise ((resolve, reject) => {
     if (db === null) {
       mongoClient.connect (uri, (err, instance) => {
         if (err) {
+          console.log ('init err:', err);
           return reject (err);
         }
         db = instance;
-        users = db.collection ('users');
-        users.ensureIndex ({username: 1}, {unique: true})
-        .then (() => {
+        Promise.resolve ().then (() => {
+          users = db.collection ('users');
+          return users.ensureIndex ({username: 1}, {unique: true});
+        }).then (() => {
           bars = db.collection ('bars');
-          bars.ensureIndex ({id: 1}, {unique: true})
-          .then (() => { resolve (); })
-          .catch (err => { reject (err); });
-        })
-        .catch (err => { reject (err); });
+          return bars.ensureIndex ({id: 1}, {unique: true});
+        }).then (() => {
+          resolve ();
+        }).catch (err => {
+          reject (err);
+        });
       });
     } else {
       resolve ();
@@ -38,9 +42,15 @@ function close () {
     if (db) {
       users = null;
       bars = null;
-      db.close ()
-      .then (() => { db = null; resolve (); })
-      .catch (() => { db = null; resolve (); });
+      Promise.resolve ().then (() => {
+        return db.close ();
+      }).then (() => {
+        db = null;
+        resolve ();
+      }).catch (() => {
+        db = null;
+        resolve ();
+      });
     } else {
       resolve ();
     }
@@ -56,19 +66,18 @@ function findUserByUsername (username) {
 // register user type functions.
 function insertUser (username, password) {
   return new Promise ((resolve, reject) => {
-    findUserByUsername (username)
-    .then (result => {
+    Promise.resolve ().then (() => {
+      return findUserByUsername (username);
+    }).then (result => {
       if (result !== null) {
-        reject (new Error ('User already exists'));
-      } else {
-        let userHash = hash.create (password);
-        let user = { username: username, hash: userHash.hash, salt: userHash.salt };
-        users.insert (user, {w:1})
-        .then (result => { resolve (result); })
-        .catch (err => { reject (err); });
+        return reject (new Error ('User already exists'));
       }
-    })
-    .catch (err => {
+      let userHash = hash.create (password);
+      let user = { username: username, hash: userHash.hash, salt: userHash.salt };
+      return users.insert (user, {w:1});
+    }).then (result => {
+      resolve (result);
+    }).catch (err => {
       reject (err);
     });
   });
@@ -91,15 +100,20 @@ function getBar (_id) {
 
 // get single bar, using Yelp id
 function getBarByYelpId (id) {
-  console.log ('getBarByYelpId', id);
   return bars.findOne ({ id: id });
 }
 
+// insert bar
+// duplicates are ignored, no error is generated if duplicate id tried
 function insertBar (newbar) {
   return new Promise ((resolve, reject) => {
-    bars.insert (newbar, {w:1})
-    .then (() => { resolve (1); })
-    .catch (() => { resolve (0); });
+    Promise.resolve ().then (() => {
+      return bars.insert (newbar, {w:1});
+    }).then (() => {
+      resolve (1);
+    }).catch (() => {
+      resolve (0);
+    });
   });
 }
 
@@ -107,9 +121,13 @@ function insertBar (newbar) {
 // duplicates are ignored, no error is generated if duplicate id tried
 function insertBars (newbars) {
   return new Promise ((resolve, reject) => {
-    bars.insert (newbars, {w:1, ordered:false})
-    .then ( result => { resolve (result.nInserted); })
-    .catch (err => { resolve (err.nInserted); });
+    Promise.resolve ().then (() => {
+      return bars.insert (newbars, {w:1, ordered:false});
+    }).then ( result => {
+      resolve (result.nInserted);
+    }).catch (err => {
+      resolve (err.nInserted);
+    });
   });
 }
 
@@ -130,11 +148,11 @@ function setGoing (id, username, going) {
 
 function getGoing (id) {
   return new Promise ((resolve, reject) => {
-    bars.findOne ({id: id})
-    .then (result => {
+    Promise.resolve ().then (() => {
+      return bars.findOne ({id: id});
+    }).then (result => {
       resolve ((result) ? result.going : []);
-    })
-    .catch (err => {
+    }).catch (err => {
       reject (err);
     });
   });
