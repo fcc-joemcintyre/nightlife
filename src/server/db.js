@@ -105,28 +105,39 @@ function getBarByYelpId (id) {
 
 // insert bar
 // duplicates are ignored, no error is generated if duplicate id tried
-function insertBar (newbar) {
+function insertBar (newBar) {
   return new Promise ((resolve, reject) => {
     Promise.resolve ().then (() => {
-      return bars.insert (newbar, {w:1});
+      return bars.insert (newBar, {w:1});
     }).then (() => {
       resolve (1);
-    }).catch (() => {
-      resolve (0);
+    }).catch (err => {
+      if (err.code === 11000) {
+        resolve (0);
+      } else {
+        reject (err);
+      }
     });
   });
 }
 
 // insert bars
 // duplicates are ignored, no error is generated if duplicate id tried
-function insertBars (newbars) {
+function insertBars (newBars) {
   return new Promise ((resolve, reject) => {
     Promise.resolve ().then (() => {
-      return bars.insert (newbars, {w:1, ordered:false});
+      return bars.insert (newBars, {w:1, ordered:false});
     }).then ( result => {
-      resolve (result.nInserted);
+      resolve (result.insertedCount);
     }).catch (err => {
-      resolve (err.nInserted);
+      // if multiple errors, reduce insert count by number of dups/errors
+      if (err.writeErrors) {
+        resolve (newBars.length - err.writeErrors.length);
+      } else if (err.code === 11000) {  // single duplicate
+        resolve (newBars.length - 1);
+      } else {
+        reject (err);
+      }
     });
   });
 }

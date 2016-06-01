@@ -66,6 +66,86 @@ describe ('bars', function () {
       });
     });
   });
+
+  describe ('add multiple new bars', function () {
+    it ('should have inserted count 3', function (done) {
+      Promise.resolve ().then (() => {
+        return db.insertBars ([
+          { id:'new-bar-1', groups: [] },
+          { id:'new-bar-2', groups: [] },
+          { id:'new-bar-3', groups: [] }
+        ]);
+      }).then (count => {
+        if (count === 3) {
+          done ();
+        } else {
+          done (new Error ('insert failed:', count));
+        }
+      }).catch (err => {
+        done (err);
+      });
+    });
+  });
+
+  describe ('add multiple bars with 1 duplicate', function () {
+    it ('should have inserted count 2', function (done) {
+      Promise.resolve ().then (() => {
+        return db.insertBars ([
+          { id:'new-bar-3', groups: [] },
+          { id:'new-bar-4', groups: [] },
+          { id:'new-bar-5', groups: [] }
+        ]);
+      }).then (count => {
+        if (count === 2) {
+          done ();
+        } else {
+          done (new Error ('insert failed:', count));
+        }
+      }).catch (err => {
+        done (err);
+      });
+    });
+  });
+
+  describe ('add multiple bars with 2 duplicates', function () {
+    it ('should have inserted count 1', function (done) {
+      Promise.resolve ().then (() => {
+        return db.insertBars ([
+          { id:'new-bar-3', groups: [] },
+          { id:'new-bar-4', groups: [] },
+          { id:'new-bar-6', groups: [] }
+        ]);
+      }).then (count => {
+        if (count === 1) {
+          done ();
+        } else {
+          done (new Error ('insert failed:', count));
+        }
+      }).catch (err => {
+        done (err);
+      });
+    });
+  });
+
+  describe ('add multiple bars with all duplicate', function () {
+    it ('should have inserted count 0', function (done) {
+      Promise.resolve ().then (() => {
+        return db.insertBars ([
+          { id:'new-bar-3', groups: [] },
+          { id:'new-bar-4', groups: [] },
+          { id:'new-bar-5', groups: [] }
+        ]);
+      }).then (count => {
+        if (count === 0) {
+          done ();
+        } else {
+          done (new Error ('insert failed:', count));
+        }
+      }).catch (err => {
+        done (err);
+      });
+    });
+  });
 });
 
 describe ('patrons', function () {
