@@ -86,4 +86,24 @@ describe ('search/going', function () {
       });
     });
   });
+
+  describe ('get list of bars going to', function () {
+    it ('should return 200', function (done) {
+      let jar = request.jar ();
+      jar.setCookie (cookie, 'http://localhost:3000');
+      let url = `${baseUrl}api/going`;
+      request.get ({url: url, jar: jar}, (err, res, body) => {
+        if (err) { return done (err); }
+        if (res.statusCode === 200) {
+          let list = JSON.parse (body);
+          if (list.length === 2) {
+            return done ();
+          } else {
+            return done (new Error (`Wrong count ${list.length}`));
+          }
+        }
+        return done (new Error (`Invalid status code ${res.statusCode}`));
+      });
+    });
+  });
 });

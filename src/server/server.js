@@ -8,7 +8,6 @@ const passport = require ('passport');
 const auth = require ('./auth');
 const routes = require ('./routes');
 const db = require ('./db');
-const promiseTry = require ('./promiseTry');
 
 // the secret for the session, should be set in an environment variable
 // some random text used as a placeholder for dev
@@ -27,7 +26,7 @@ let httpsOnly = (req, res, next) => {
 function start (port, dbLocation, yelp) {
   return new Promise ((resolve, reject) => {
     console.log ('Starting server');
-    promiseTry (() => {
+    Promise.resolve ().then (() => {
       return db.init (dbLocation);
     }).then (() => {
       // set up static HTML serving

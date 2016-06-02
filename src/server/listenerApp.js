@@ -1,6 +1,5 @@
 'use strict';
 const db = require ('./db');
-const promiseTry = require ('./promiseTry');
 
 let yelp = null;
 
@@ -62,7 +61,7 @@ function search (req, res) {
 
 function goingList (req, res) {
   console.log ('goingList', req.params);
-  promiseTry (() => {
+  Promise.resolve ().then (() => {
     return db.getBars ();
   }).then (bars => {
     let list = [];
@@ -83,11 +82,11 @@ function going (req, res) {
   let id = req.params.id;
   let going = req.params.going === '1';
 
-  promiseTry (() => {
+  Promise.resolve ().then (() => {
     return db.getBarByYelpId (id);
   }).then (result => {
     if (result === null) {
-      return db.insertBar ({ id: id, going:[] })
+      db.insertBar ({ id: id, going:[] })
       .then (() => {
         updateGoing (res, id, req.user.username, going);
       });
@@ -102,7 +101,7 @@ function going (req, res) {
 
 function updateGoing (res, id, user, going) {
   console.log ('updateGoing', id, user, going);
-  promiseTry (() => {
+  Promise.resolve ().then (() => {
     return db.setGoing (id, user, going);
   }).then (() => {
     return db.getGoing (id);

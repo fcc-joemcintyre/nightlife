@@ -29,7 +29,15 @@ before (function (done) {
   }).then (() => {
     return db.insertUser ('amy', 'test');
   }).then (() => {
-    return db.insertBar ({ id: 'the-dancing-bear-pub-waco', going: [] });
+    let data = [
+      { id: 'the-dancing-bear-pub-waco', going: [] },
+      { id: 'brazos-bar-and-bistro-waco', going: [] },
+      { id: 'muddle-waco', going: ['amy'] },
+      { id: 'nolan-creek-winery-and-wine-bar-belton', going: [] },
+      { id: 'chupacabra-craft-beer-salado', going: ['amy'] }
+    ];
+    return db.insertBars (data);
+    //return db.insertBar ({ id: 'the-dancing-bear-pub-waco', going: [] });
   }).then (() => {
     return db.close ();
   }).then (() => {

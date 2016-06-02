@@ -2,7 +2,6 @@
 const mongoClient = require ('mongodb').MongoClient;
 const db = require ('./db');
 const server = require ('./server');
-const promiseTry = require ('./promiseTry');
 
 const port = 3000;
 const dbURI = 'mongodb://localhost:27017/nightlifeTest';
@@ -43,7 +42,7 @@ function resetDatabase () {
 }
 
 function main () {
-  promiseTry (() => {
+  Promise.resolve ().then (() => {
     return resetDatabase ();
   }).then (() => {
     return db.init (dbURI);
