@@ -107,3 +107,17 @@ describe ('search/going', function () {
     });
   });
 });
+
+describe ('REST call validation', function () {
+  describe ('unauthenticated, calling protected API', function () {
+    it ('should fail with 401', function (done) {
+      request.get (`${baseUrl}api/going`, (err, res, body) => {
+        if (err) { return done (err); }
+        if (res.statusCode === 401) {
+          return done ();
+        }
+        return done (new Error (`Invalid statusCode ${res.statusCode}`));
+      });
+    });
+  });
+});
