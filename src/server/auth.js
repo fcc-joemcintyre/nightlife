@@ -1,11 +1,14 @@
 'use strict';
 const passport = require ('passport');
 const Strategy = require ('passport-local').Strategy;
-const db = require ('./db');
 const hash = require ('./hash');
 
+let db;
+
 // Initialize authentication module, with serializer and desericalizer
-function init () {
+function init (_db) {
+  db = _db;
+  
   // local authentication using database for user registry
   passport.use (new Strategy ((username, password, callback) => {
     db.findUserByUsername (username)

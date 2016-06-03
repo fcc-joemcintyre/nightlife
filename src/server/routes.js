@@ -3,9 +3,9 @@ const listenerUser = require ('./listenerUser');
 const listenerApp = require ('./listenerApp');
 
 // Initialize routes.
-function init (app, yelp) {
-  listenerUser.init ();
-  listenerApp.init (yelp);
+function init (app, db, yelp) {
+  listenerUser.init (db);
+  listenerApp.init (db, yelp);
 
   app.post ('/api/login', listenerUser.login);
   app.post ('/api/logout', listenerUser.logout);

@@ -1,5 +1,6 @@
 'use strict';
 const processCommand = require ('./cmd').processCommand;
+const db = require ('./db');
 const server = require ('./server');
 const Yelp = require ('yelp');
 
@@ -14,6 +15,8 @@ function main () {
     process.exit (command.code);
   }
 
+  let port = process.env.PORT || command.port;
+  let dbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/nightlife';
   let yelp = new Yelp ({
     consumer_key: process.env.YELP_CONSUMER_KEY,
     consumer_secret: process.env.YELP_CONSUMER_SECRET,
@@ -21,7 +24,11 @@ function main () {
     token_secret: process.env.YELP_TOKEN_SECRET
   });
 
-  let port = process.env.PORT || command.port;
-  let uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/nightlife';
-  server.start (port, uri, yelp);
+  Promise.resolve ().then (() => {
+    return db.init (dbURI);
+  }).then (() => {
+    return server.start (port, db, yelp);
+  }).catch (err => {
+    console.log ('Error starting server:', err);
+  });
 }

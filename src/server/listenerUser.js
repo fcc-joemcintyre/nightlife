@@ -1,9 +1,11 @@
 'use strict';
 const passport = require ('passport');
-const db = require ('./db');
 
-// Initialize listeners (currently empty)
-function init () {
+let db;
+
+// initialize listener
+function init (_db) {
+  db = _db;
 }
 
 // Login, authenticating user and creating a session

@@ -7,7 +7,6 @@ const path = require ('path');
 const passport = require ('passport');
 const auth = require ('./auth');
 const routes = require ('./routes');
-const db = require ('./db');
 
 // the secret for the session, should be set in an environment variable
 // some random text used as a placeholder for dev
@@ -23,12 +22,10 @@ let httpsOnly = (req, res, next) => {
 };
 
 // Start the server.
-function start (port, dbLocation, yelp) {
+function start (port, db, yelp) {
   return new Promise ((resolve, reject) => {
     console.log ('Starting server');
     Promise.resolve ().then (() => {
-      return db.init (dbLocation);
-    }).then (() => {
       // set up static HTML serving
       let app = express ();
 
@@ -47,12 +44,12 @@ function start (port, dbLocation, yelp) {
       }));
 
       // set up passport authentication, attach to express session manager
-      auth.init ();
+      auth.init (db);
       app.use (passport.initialize ());
       app.use (passport.session ());
 
       // create server with HTML and REST routes
-      routes.init (app, yelp);
+      routes.init (app, db, yelp);
 
       app.get ('*.js', (req, res) => {
         res.set ({

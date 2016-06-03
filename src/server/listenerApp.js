@@ -1,10 +1,10 @@
 'use strict';
-const db = require ('./db');
+let db;
+let yelp;
 
-let yelp = null;
-
-// Initialize listeners (currently empty)
-function init (_yelp) {
+// initialize listener
+function init (_db, _yelp) {
+  db = _db;
   yelp = _yelp;
 }
 

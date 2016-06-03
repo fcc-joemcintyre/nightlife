@@ -51,12 +51,9 @@ function main () {
   }).then (() => {
     return db.insertBar ({ id: 'the-dancing-bear-pub-waco', going: [] });
   }).then (() => {
-    return db.close ();
-  }).then (() => {
     let yelp = new Yelp ();
-    return server.start (port, dbURI, yelp);
-  })
-  .catch (err => {
+    return server.start (port, db, yelp);
+  }).catch (err => {
     console.log ('Error starting server:', err);
   });
 }
