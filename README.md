@@ -60,6 +60,21 @@ npm run test-db
 npm run test-server
 ```
 
+### Coverage
+
+Coverage reports are generated using,
+
+```
+npm run coverage
+```
+
+Multiple coverage runs are performed, and then a final coverage run combines
+the separate results. The final report is available in
+*coverage/lcov-report/index.html*
+
+Results for the individual runs are available in the subdirectories under the
+*coverage* directory.
+
 ### Server
 
 In a terminal, continuous server operation, updating on changes,
