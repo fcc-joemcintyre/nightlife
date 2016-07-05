@@ -3,6 +3,7 @@ const express = require ('express');
 const bodyParser = require ('body-parser');
 const cookieParser = require ('cookie-parser');
 const expressSession = require ('express-session');
+const fs = require ('fs');
 const path = require ('path');
 const passport = require ('passport');
 const auth = require ('./auth');
@@ -52,11 +53,19 @@ function start (port, db, yelp) {
       routes.init (app, db, yelp);
 
       app.get ('*.js', (req, res) => {
-        res.set ({
-          'content-type': 'text/javascript',
-          'content-encoding': 'gzip'
-        });
-        res.sendFile (path.join (__dirname, 'public' + req.path + '.gz'));
+        let file = path.join (__dirname, 'public' + req.path + '.gz');
+        if (fs.existsSync (file)) {
+          res.set ({
+            'content-type': 'text/javascript',
+            'content-encoding': 'gzip'
+          });
+          res.sendFile (file);
+        } else {
+          res.set ({
+            'content-type': 'text/javascript'
+          });
+          res.sendFile (path.join (__dirname, 'public' + req.path));
+        }
       });
 
       // static file handling
