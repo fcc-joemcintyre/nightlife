@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, withRouter} from 'react-router';
+import {withRouter} from 'react-router';
 import {login} from '../store/actions';
 import FilteredInput from '../../ui/FilteredInput.jsx';
 
