@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router';
 import {logout} from '../store/actions';
 
 export default class LogoutPage extends React.Component {

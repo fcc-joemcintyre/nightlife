@@ -1,12 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router';
+import {Link, withRouter} from 'react-router';
 import {login} from '../store/actions';
 import FilteredInput from '../../ui/FilteredInput.jsx';
 
 const nameChars = /[A-Za-z0-9]/;
 const pwChars = /[A-Za-z0-9!@#$%^&*-+_=]/;
 
-export default class LoginPage extends React.Component {
+class LoginPage extends React.Component {
   constructor (props, context) {
     super (props, context);
     this.state = {
@@ -24,9 +24,9 @@ export default class LoginPage extends React.Component {
       .then (success => {
         this.setState ({ error: false });
         if (this.props.location.state && this.props.location.state.nextPathname) {
-          this.context.router.replace (this.props.location.state.nextPathname);
+          this.props.router.replace (this.props.location.state.nextPathname);
         } else {
-          this.context.router.replace ('/');
+          this.props.router.replace ('/');
         }
       })
       .catch (error => {
@@ -75,7 +75,8 @@ export default class LoginPage extends React.Component {
   }
 }
 
+export default withRouter (LoginPage);
+
 LoginPage.contextTypes = {
-  store: React.PropTypes.object.isRequired,
-  router: React.PropTypes.object.isRequired
+  store: React.PropTypes.object.isRequired
 }

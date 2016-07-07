@@ -1,12 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router';
+import {Link, withRouter} from 'react-router';
 import {register, login} from '../store/actions';
 import FilteredInput from '../../ui/FilteredInput.jsx';
 
 const nameChars = /[A-Za-z0-9]/;
 const pwChars = /[A-Za-z0-9!@#$%^&*-+_=]/;
 
-export default class RegisterPage extends React.Component {
+class RegisterPage extends React.Component {
   constructor (props, context) {
     super (props, context);
     this.state = {
@@ -27,9 +27,9 @@ export default class RegisterPage extends React.Component {
         .then (success => {
           this.setState ({ error: false });
           if (this.props.location.state && this.props.location.nextPathname) {
-            this.context.router.replace (this.props.location.nextPathname);
+            this.props.router.replace (this.props.location.nextPathname);
           } else {
-            this.context.router.replace ('/');
+            this.props.router.replace ('/');
           }
         })
         .catch (error => {
@@ -83,7 +83,8 @@ export default class RegisterPage extends React.Component {
   }
 }
 
+export default withRouter (RegisterPage);
+
 RegisterPage.contextTypes = {
-  store: React.PropTypes.object.isRequired,
-  router: React.PropTypes.object.isRequired
+  store: React.PropTypes.object.isRequired
 }
