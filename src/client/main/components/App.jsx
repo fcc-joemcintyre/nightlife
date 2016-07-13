@@ -15,7 +15,7 @@ import NotFoundPage from './NotFoundPage.jsx';
 import AboutPage from './AboutPage.jsx';
 
 // initialize store
-const store = configureStore ({});
+const store = configureStore ();
 store.dispatch (verifyLogin ())
 .then (() => {
   // setup router (react-router) with browserHistory
